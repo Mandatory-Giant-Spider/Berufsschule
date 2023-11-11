@@ -239,7 +239,7 @@ h3 {
     height: 16px;
 }
 
-.contentlink {
+.contentlink, .contenlink:link, .contentlink:visited {
     text-decoration: none;
     color: var(--light);
 }
