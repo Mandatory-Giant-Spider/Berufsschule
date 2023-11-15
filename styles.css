@@ -318,13 +318,16 @@ h3 {
 
     #menubutton {
         display: block;
-        height: 64px;
-        width: 64px;
+        height: 40px;
+        width: 40px;
         cursor: pointer;
-        border: none;
-        background-image: url(./mgs_logo.png);
-        background-size: 100%;
+        border: 2px solid var(--smoke);
+        border-radius: 20%;
         background-color: var(--medium);
+        background-image: url(./menubutton.png);
+        background-position: center center;
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
     }
 
     .submenubutton {
