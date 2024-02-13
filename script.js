@@ -28,7 +28,7 @@ let subbar = document.querySelectorAll(".subbar");
 let stickNavbar = navbar.offsetTop + 30;
 
 window.onscroll = function() {
-  if (window.scrollY > stickNavbar) {
+  if (window.scrollY > stickNavbar) {""
     navbar.classList.add("sticky");
     navlogo.classList.add("show");
     navfavi.classList.add("show");
