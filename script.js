@@ -25,10 +25,10 @@ let navlogo = document.getElementById("navlogo");
 let navfavi = document.getElementById("navfavi");
 let mainbarelem = document.querySelectorAll(".mainbarelem");
 let subbar = document.querySelectorAll(".subbar");
-let stickNavbar = navbar.offsetTop;
+let stickNavbar = navbar.offsetTop + 30;
 
 window.onscroll = function() {
-  if (window.pageYOffset > stickNavbar) {
+  if (window.scrollY > stickNavbar) {
     navbar.classList.add("sticky");
     navlogo.classList.add("show");
     navfavi.classList.add("show");
